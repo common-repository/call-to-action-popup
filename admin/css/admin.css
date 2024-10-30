@@ -1,0 +1,79 @@
+/*
+ * Admin CSS
+ */
+.cactus-popup-page {
+	border: solid 1px #04b6fc;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	overflow: hidden;
+	-webkit-box-shadow: 0px 2px 8px rgba(0,0,0,.2);
+	-moz-box-shadow: 0px 2px 8px rgba(0,0,0,.2);
+	box-shadow: 0px 2px 8px rgba(0,0,0,.2);
+}
+.cactus-popup-page .notice-warning {
+	margin: 20px;
+}
+.cactus-popup-page .page-title {
+	background: #04b6fc;
+	margin: 0;
+	padding: 20px;
+	color: #fff;
+	text-shadow: 0px 1px 2px rgba(0,0,0,.1);
+	font-weight: 500 !important;
+	font-size: 24px;
+}
+.cactus-popup-page .page-title span {
+	margin-right: 10px;
+}
+.cactus-popup-page .page-title span:before {
+	font-size: 22px;
+}
+.cactus-popup-page .popup-options {
+	padding: 10px 15px 10px 10px;
+}
+.cactus-popup-page .popup-options p {
+	margin: 0;
+	padding: 10px;
+}
+.cactus-popup-page .popup-options p:hover {
+	background: #fdfdfd;
+	border-right: solid 1px #04b6fc;
+}
+.cactus-popup-page .popup-options .intro {
+	font-size: 16px;
+}
+.cactus-popup-page .popup-options .intro code {
+	font-size: 16px !important;
+}
+.cactus-popup-page .popup-options .label {
+	font-size: 15px;
+	font-weight: 500;
+}
+.cactus-popup-page .popup-options .desc {
+	font-size: 13px;
+	font-style: italic;
+	color: #555d66;
+}
+/*PopUp Listing Page*/
+#cactus_popup_subscribe, #cactus_popup_display, #cactus_popup_id {
+	width: 150px;
+	text-align: center;
+}
+.column-cactus_popup_subscribe, .column-cactus_popup_display, .column-cactus_popup_id {
+	text-align: center !important;
+	font-weight: 500;
+}
+.rwmb-field.cactus-popup-content-padding input[type=text] {
+	width: 60px;
+	display: flex;
+}
+.rwmb-field.cactus-popup-content-padding label {
+	display: inline-block;
+	margin-bottom: 5px;
+}
+.rwmb-field.cactus-popup-content-padding legend{
+	display: none;
+}
+.rwmb-field.cactus-popup-background .rwmb-media-status {
+	display: none;
+}
